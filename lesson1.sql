@@ -75,8 +75,8 @@ select * from product;
 -- NOT NULL + UNIQUE = PRIMARY KEY
 -- DROP TABLE IF EXISTS category;
 
--- None, NULL, nan, nil
-
+-- None, NULL, nil
+-- NaN
 
 -- HOMEWORK
 -- 0. https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-data-types/
