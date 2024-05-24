@@ -184,7 +184,19 @@ from film f
          join film_category fc on fc.film_id = f.film_id
          join category c on c.category_id = fc.category_id;
 
--- homework
+
+-- HOMEWORK
+-- 0. https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-data-types/
+-- 1. psql commands
+-- Section 1. Querying Data
+-- Section 2. Filtering Data
+-- Section 3. Joining Multiple Tables
+-- Section 11. Import & Export Data
+-- Section 13. PostgreSQL Constraints
+-- Section 14. PostgreSQL Data Types in Depth
+-- Section 16. PostgreSQL Utilities
+
+-- HOMEWORK
 -- 1ta category nechta kino bor
 -- 1ta filmda nechta actor rol oynagan
 -- eng kop rol oynagan top 5ta actor ismi, va nechta kinoda rol oynaganligi
