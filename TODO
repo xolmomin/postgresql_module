@@ -1,0 +1,80 @@
+
+host
+port
+
+postgres(5432)
+
+RedisDict(host='10.10.0.2', port=6379)
+
+sql(mysql, sqlite, postgres, oracle)
+
+nosql(redis,mongodb)
+
+mongodb
+
+docker run --name redis_container -p 6379:6379 redis:alpine
+
+docker run --name postgres_container -e POSTGRES_PASSWORD=1 -p 5432:5432 postgres:alpine
+
+create database p22_db;
+
+
+
+psql command
+\l - database list
+\du - user (role) larni korish
+\dt - tablelarni korish
+
+\c db_name
+
+
+
+pycharm + terminal
+
+pgadmin
+
+resources
+1. https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-data-types/
+2.
+
+
+-- 1. psql commands
+-- Section 1. Querying Data
+-- Section 2. Filtering Data
+-- Section 3. Joining Multiple Tables
+-- Section 4. Grouping Data
+-- Section 5. Set Operations
+
+
+-- Section 6. Grouping sets, Cubes, and Rollups
+-- Section 7. Subquery
+-- Section 8. Common Table Expressions
+-- Section 9. Modifying Data
+-- Section 10. Transactions
+-- Section 12. Managing Tables
+https://www.postgresqltutorial.com/postgresql-aggregate-functions/
+https://www.postgresqltutorial.com/postgresql-date-functions/
+https://www.postgresqltutorial.com/postgresql-json-functions/
+https://www.postgresqltutorial.com/postgresql-math-functions/
+
+
+-- Section 11. Import & Export Data
+-- Section 13. PostgreSQL Constraints
+-- Section 14. PostgreSQL Data Types in Depth
+-- Section 16. PostgreSQL Utilities
+
+# HOMEWORK
+-- Section 14. PostgreSQL Data Types in Depth
+-- Section 15. Conditional Expressions & Operators
+
+
+-- Section 6. Grouping sets, Cubes, and Rollups
+-- Section 7. Subquery
+-- Section 8. Common Table Expressions
+-- Section 9. Modifying Data
+-- Section 10. Transactions
+-- Section 12. Managing Tables
+https://www.postgresqltutorial.com/postgresql-aggregate-functions/
+https://www.postgresqltutorial.com/postgresql-date-functions/
+https://www.postgresqltutorial.com/postgresql-json-functions/
+https://www.postgresqltutorial.com/postgresql-math-functions/
